@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazing Galapagos Travel | San Cristóbal, Galápagos</title>
+<meta name="description" content="Amazing Galapagos Travel — local tour operator in Puerto Baquerizo Moreno, San Cristóbal. Island tours, wildlife packages, and Galápagos cruises.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#hero" class="logo">
+      <img src="assets/images/logo.svg" alt="Amazing Galapagos Travel" class="logo-img">
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="islands.html">Islands</a>
+      <a href="packages.html">Packages</a>
+      <a href="#cruises">Cruises</a>
+      <a href="ferries.html">Ferries</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-media">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline poster="assets/images/hero-1.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-slideshow" id="heroSlideshow">
+      <div class="slide slide-active" style="background-image:url('assets/images/hero-1.jpg')"></div>
+      <div class="slide" style="background-image:url('assets/images/hero-2.jpg')"></div>
+      <div class="slide" style="background-image:url('assets/images/hero-3.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="hero-waves">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,0 720,48 C960,96 1200,32 1440,64 L1440,120 L0,120 Z"></path></svg>
+  </div>
+
+  <div class="container hero-content">
+    <p class="hero-eyebrow reveal">📍 Puerto Baquerizo Moreno · San Cristóbal · Galápagos</p>
+    <h1 class="reveal">Live the <span class="text-gradient">Amazing</span> Galápagos</h1>
+    <p class="hero-sub reveal">Local guides, small groups, and once-in-a-lifetime encounters with tortoises, sea lions, sharks and penguins — right where they live.</p>
+    <div class="hero-actions reveal">
+      <a href="#packages" class="btn btn-primary">Explore Tours</a>
+      <a href="#cruises" class="btn btn-outline">Book a Cruise</a>
+    </div>
+
+    <div class="hero-stats reveal">
+      <div class="stat"><span class="stat-num" data-count="8">0</span><span class="stat-label">5★ Reviews</span></div>
+      <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Islands Covered</span></div>
+      <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-label">Signature Packages</span></div>
+      <div class="stat"><span class="stat-num" data-count="74">0</span><span class="stat-label">% Local Guides</span></div>
+    </div>
+  </div>
+
+  <a href="#islands" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ ISLANDS ============ -->
+<section class="islands" id="islands">
+  <div class="container">
+    <p class="section-eyebrow reveal">Where we go</p>
+    <h2 class="section-title reveal">Three Islands, One Amazing Archipelago</h2>
+    <p class="section-sub reveal">Every island in the Galápagos has its own personality. Here's what makes ours worth the trip.</p>
+
+    <div class="island-grid">
+      <article class="island-card reveal">
+        <div class="island-img" style="background-image:url('assets/images/island-san-cristobal.jpg')">
+          <span class="island-badge">Our Home Base</span>
+        </div>
+        <div class="island-body">
+          <h3>San Cristóbal</h3>
+          <p>The capital island — sea lions nap on the boardwalk, Kicker Rock rises from the sea, and our office is a five-minute walk from the pier.</p>
+          <a href="island-san-cristobal.html" class="island-link">See tours here →</a>
+        </div>
+      </article>
+
+      <article class="island-card reveal">
+        <div class="island-img" style="background-image:url('assets/images/island-santa-cruz.jpg')">
+          <span class="island-badge">Highlands & Wildlife</span>
+        </div>
+        <div class="island-body">
+          <h3>Santa Cruz</h3>
+          <p>Home to the Charles Darwin Research Station and the misty highlands where giant tortoises roam free in the wild.</p>
+          <a href="island-santa-cruz.html" class="island-link">See tours here →</a>
+        </div>
+      </article>
+
+      <article class="island-card reveal">
+        <div class="island-img" style="background-image:url('assets/images/island-isabela.jpg')">
+          <span class="island-badge">Volcanoes & Coast</span>
+        </div>
+        <div class="island-body">
+          <h3>Isabela</h3>
+          <p>The largest island — active volcanoes, flamingo lagoons, and Concha de Perla's calm, crystal-clear snorkeling bay.</p>
+          <a href="island-isabela.html" class="island-link">See tours here →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CRUISE BOOKING ============ -->
+<section class="cruises" id="cruises">
+  <div class="cruise-bg" style="background-image:url('assets/images/cruise-yacht.jpg')"></div>
+  <div class="cruise-overlay"></div>
+  <div class="container cruise-inner">
+    <div class="cruise-copy reveal">
+      <p class="section-eyebrow section-eyebrow-light">Sail the archipelago</p>
+      <h2 class="section-title section-title-light">Book Your Galápagos Cruise</h2>
+      <p class="section-sub section-sub-light">Multi-day yacht itineraries between San Cristóbal, Santa Cruz and Isabela — wake up in a new bay every morning.</p>
+
+      <ul class="cruise-list">
+        <li><strong>4 Days / 3 Nights</strong> — San Cristóbal round-trip, great for a first taste</li>
+        <li><strong>5 Days / 4 Nights</strong> — extends into Santa Cruz highlands & Floreana</li>
+        <li><strong>8 Days / 7 Nights</strong> — the full archipelago, San Cristóbal to Isabela</li>
+      </ul>
+      <img class="cruise-thumb" src="assets/images/cruise-cabin.jpg" alt="Yacht cabin and deck">
+    </div>
+
+    <form class="cruise-form reveal" id="cruiseForm">
+      <h3>Request a Booking</h3>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-name">Full name</label>
+          <input type="text" id="cf-name" name="name" required placeholder="Jane Traveler">
+        </div>
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required placeholder="jane@email.com">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-itinerary">Itinerary</label>
+          <select id="cf-itinerary" name="itinerary" required>
+            <option value="">Select a length</option>
+            <option>4 Days / 3 Nights</option>
+            <option>5 Days / 4 Nights</option>
+            <option>8 Days / 7 Nights</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="cf-cabin">Cabin type</label>
+          <select id="cf-cabin" name="cabin" required>
+            <option value="">Select cabin</option>
+            <option>Tourist Superior</option>
+            <option>First Class</option>
+            <option>Luxury Suite</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-date">Preferred date</label>
+          <input type="date" id="cf-date" name="date" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-guests">Guests</label>
+          <input type="number" id="cf-guests" name="guests" min="1" max="16" value="2" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="cf-message">Anything else we should know?</label>
+        <textarea id="cf-message" name="message" rows="3" placeholder="Dietary needs, celebrations, questions..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send Booking Request</button>
+      <p class="form-note">We'll reply within 24 hours with availability and pricing.</p>
+      <div class="form-success" id="cruiseSuccess">
+        <span>🌊</span>
+        <p>Thank you! Your request has been received. Our team will email you shortly.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FERRIES ============ -->
+<section class="ferries" id="ferries">
+  <div class="container">
+    <div class="ferry-panel reveal">
+      <div class="ferry-info">
+        <p class="ferry-eyebrow">Getting around</p>
+        <h2 class="ferry-title">Inter-island Ferries</h2>
+        <p class="ferry-desc">Speedboat ferry tickets between the main islands — we reserve your seats and coordinate pickups.</p>
+        <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="ferry-cta">Reserve seats</a>
+        <a href="ferries.html" class="ferry-schedule-link">View full schedule →</a>
+      </div>
+      <div class="ferry-grid">
+        <div class="ferry-chip">
+          <span class="ferry-chip-icon">⛴️</span>
+          <div>
+            <p class="ferry-route">Santa Cruz → Isabela</p>
+            <p class="ferry-departure">7:00 AM · 3:00 PM</p>
+          </div>
+        </div>
+        <div class="ferry-chip">
+          <span class="ferry-chip-icon">⛴️</span>
+          <div>
+            <p class="ferry-route">Santa Cruz → San Cristóbal</p>
+            <p class="ferry-departure">7:00 AM · 3:00 PM</p>
+          </div>
+        </div>
+        <div class="ferry-chip">
+          <span class="ferry-chip-icon">⛴️</span>
+          <div>
+            <p class="ferry-route">Isabela → Santa Cruz</p>
+            <p class="ferry-departure">6:00 AM · 3:00 PM</p>
+          </div>
+        </div>
+        <div class="ferry-chip">
+          <span class="ferry-chip-icon">⛴️</span>
+          <div>
+            <p class="ferry-route">San Cristóbal → Santa Cruz</p>
+            <p class="ferry-departure">7:00 AM · 3:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section class="packages" id="packages">
+  <div class="container">
+    <p class="section-eyebrow reveal">Signature experiences</p>
+    <h2 class="section-title reveal">Pick Your Amazing</h2>
+    <p class="section-sub reveal">Four packages, four kinds of wild. Mix and match to build your perfect Galápagos week.</p>
+
+    <div class="package-grid">
+      <article class="package-card reveal">
+        <div class="package-img" style="background-image:url('assets/images/package-tortugas.jpg')"></div>
+        <div class="package-body">
+          <h3>Amazing Tortugas</h3>
+          <p>Walk among giant tortoises in their natural highland habitat, then cool off in a volcanic lava tunnel.</p>
+          <div class="package-meta"><span>👥 Small groups</span></div>
+          <a href="package-detail.html?slug=amazing-tortugas" class="package-link">View itinerary →</a>
+        </div>
+      </article>
+
+      <article class="package-card reveal">
+        <div class="package-img" style="background-image:url('assets/images/package-penguins.jpg')"></div>
+        <div class="package-body">
+          <h3>Amazing Penguins</h3>
+          <p>Snorkel alongside Galápagos penguins and playful sea lion pups at Isla Lobos and Kicker Rock.</p>
+          <div class="package-meta"><span>🤿 Snorkel incl.</span></div>
+          <a href="package-detail.html?slug=amazing-penguins" class="package-link">View itinerary →</a>
+        </div>
+      </article>
+
+      <article class="package-card reveal">
+        <div class="package-img" style="background-image:url('assets/images/package-sharks.jpg')"></div>
+        <div class="package-body">
+          <h3>Amazing Sharks</h3>
+          <p>Dive or snorkel the legendary León Dormido (Kicker Rock) channel for a close look at hammerhead sharks.</p>
+          <div class="package-meta"><span>🎯 Advanced</span></div>
+          <a href="package-detail.html?slug=amazing-sharks" class="package-link">View itinerary →</a>
+        </div>
+      </article>
+
+      <article class="package-card reveal">
+        <div class="package-img" style="background-image:url('assets/images/package-adventure.jpg')"></div>
+        <div class="package-body">
+          <h3>Amazing Adventure</h3>
+          <p>A multi-island combo of hiking, kayaking and snorkeling for travelers who want it all in one trip.</p>
+          <div class="package-meta"><span>🔥 Best seller</span></div>
+          <a href="package-detail.html?slug=amazing-adventure" class="package-link">View itinerary →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHERE TO STAY ============ -->
+<section class="stays" id="stays">
+  <div class="container">
+    <p class="section-eyebrow reveal">Where to stay</p>
+    <h2 class="section-title reveal">Partner Hotels, Exclusive Rates</h2>
+    <p class="section-sub reveal">We book allied hotels in three comfort tiers, with benefits you won't find on your own.</p>
+
+    <div class="stay-grid">
+      <article class="stay-card reveal">
+        <div class="stay-img" style="background-image:url('assets/images/stay-tourist.jpg')"></div>
+        <div class="stay-body">
+          <div class="stay-head">
+            <h3>Tourist</h3>
+            <span class="stay-rating" aria-label="3 out of 5 stars">★★★<span class="stay-rating-empty">★★</span></span>
+          </div>
+          <p class="stay-class">Tourist Class</p>
+          <p class="stay-desc">Clean, friendly, well-located stays — great value near the harbour and shops.</p>
+          <div class="stay-benefits">
+            <p class="stay-benefits-label">Member Benefits</p>
+            <ul>
+              <li>Central location</li>
+              <li>Daily breakfast</li>
+              <li>Free Wi-Fi</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="btn btn-primary btn-block">Reserve</a>
+        </div>
+      </article>
+
+      <article class="stay-card stay-card-featured reveal">
+        <span class="stay-featured-badge">Most popular</span>
+        <div class="stay-img" style="background-image:url('assets/images/stay-comfort.jpg')"></div>
+        <div class="stay-body">
+          <div class="stay-head">
+            <h3>Comfort</h3>
+            <span class="stay-rating" aria-label="4 out of 5 stars">★★★★<span class="stay-rating-empty">★</span></span>
+          </div>
+          <p class="stay-class">Comfort Class</p>
+          <p class="stay-desc">More space and amenities — pools, sea views and upgraded rooms for a relaxed stay.</p>
+          <div class="stay-benefits">
+            <p class="stay-benefits-label">Member Benefits</p>
+            <ul>
+              <li>Pool and sea views</li>
+              <li>Upgraded rooms</li>
+              <li>Airport transport help</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="btn btn-primary btn-block">Reserve</a>
+        </div>
+      </article>
+
+      <article class="stay-card reveal">
+        <div class="stay-img" style="background-image:url('assets/images/stay-first.jpg')"></div>
+        <div class="stay-body">
+          <div class="stay-head">
+            <h3>First</h3>
+            <span class="stay-rating" aria-label="5 out of 5 stars">★★★★★</span>
+          </div>
+          <p class="stay-class">First Class</p>
+          <p class="stay-desc">The island's finest boutique and beachfront hotels, with the best service and details.</p>
+          <div class="stay-benefits">
+            <p class="stay-benefits-label">Member Benefits</p>
+            <ul>
+              <li>Premium beach front</li>
+              <li>Concierge service</li>
+              <li>Exclusive partner rates</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="btn btn-primary btn-block">Reserve</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <p class="section-eyebrow reveal">What travelers say</p>
+    <h2 class="section-title reveal">Real Reviews from TripAdvisor</h2>
+    <div class="reviews-score reveal">
+      <span class="stars">★★★★★</span>
+      <span>5.0 out of 5 — 11 reviews on TripAdvisor</span>
+    </div>
+
+    <div class="reviews-track-wrap reveal">
+      <button class="review-nav prev" id="revPrev" aria-label="Previous reviews">‹</button>
+      <div class="reviews-track" id="reviewsTrack">
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“I greatly appreciate the very professional service”</h4>
+          <p>“Amazing experience in San Cristóbal! We did the Highlands Tour as a family and everything was perfect from start to finish.”</p>
+          <div class="review-author"><span class="avatar">DJ</span><div><strong>DJ J</strong><small>May 11, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“Tour guide with Danny”</h4>
+          <p>“I had a great time on the tour with Danny. He made me and my step mom feel super comfortable and let us pick music.”</p>
+          <div class="review-author"><span class="avatar">DC</span><div><strong>Dani C</strong><small>May 6, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“Amazing Island - Great Guide”</h4>
+          <p>“Our guide for our visit to El Junco lake and the tortoise sanctuary was Danny. Very knowledgeable.”</p>
+          <div class="review-author"><span class="avatar">SB</span><div><strong>Sandi B</strong><small>May 20, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“The best of the best”</h4>
+          <p>“They are the best and helped our group of 16 get around everywhere and always arrive on time.”</p>
+          <div class="review-author"><span class="avatar">HM</span><div><strong>Hunter M</strong><small>May 12, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“San Cristóbal is beautiful”</h4>
+          <p>“Excellent service, Danny is a very kind person, he took us on the upper part tour.”</p>
+          <div class="review-author"><span class="avatar">VJ</span><div><strong>Vinicio J</strong><small>May 14, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“Excellent experience on the tour”</h4>
+          <p>“I had an excellent experience on the highlands tour. He was very kind, attentive, and professional throughout.”</p>
+          <div class="review-author"><span class="avatar">RI</span><div><strong>Reham I</strong><small>May 13, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“He helped my mom in a rocky area”</h4>
+          <p>“A respectful, friendly and patient person.”</p>
+          <div class="review-author"><span class="avatar">KG</span><div><strong>Karen G</strong><small>May 8, 2026</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <h4>“Danny is the best!”</h4>
+          <p>“Danny was wonderful, knowledgeable, friendly and so responsive. Everyone should ask for Danny.”</p>
+          <div class="review-author"><span class="avatar">EC</span><div><strong>Elise C</strong><small>May 6, 2026</small></div></div>
+        </article>
+
+      </div>
+      <button class="review-nav next" id="revNext" aria-label="Next reviews">›</button>
+    </div>
+
+    <a class="tripadvisor-link reveal" href="https://www.tripadvisor.com/Attraction_Review-g297531-d34346004-Reviews-Amazing_Galapagos_Travel-Puerto_Baquerizo_Moreno_San_Cristobal_Galapagos_Islands.html" target="_blank" rel="noopener">Read all reviews on TripAdvisor →</a>
+  </div>
+</section>
+
+<!-- ============ GALLERY (Office / Clients) ============ -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <p class="section-eyebrow reveal">Happy Travelers</p>
+    <h2 class="section-title reveal">Smiles From Our Office</h2>
+    <p class="section-sub reveal">Real guests who started their Galápagos adventure with us in Puerto Baquerizo Moreno.</p>
+  </div>
+
+  <div class="container">
+    <div class="coverflow reveal" id="coverflow">
+      <div class="coverflow-stage">
+        <div class="coverflow-slide coverflow-slide-prev" id="coverflowPrev"><img id="coverflowPrevImg" src="" alt=""></div>
+        <div class="coverflow-slide coverflow-slide-active" id="coverflowActive"><img id="coverflowActiveImg" src="" alt="Happy traveler at Amazing Galapagos Travel"></div>
+        <div class="coverflow-slide coverflow-slide-next" id="coverflowNext"><img id="coverflowNextImg" src="" alt=""></div>
+      </div>
+      <button class="coverflow-arrow coverflow-arrow-left" id="coverflowArrowLeft" aria-label="Previous photo">‹</button>
+      <button class="coverflow-arrow coverflow-arrow-right" id="coverflowArrowRight" aria-label="Next photo">›</button>
+      <div class="coverflow-dots" id="coverflowDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div>
+      <a href="#hero" class="logo logo-footer">
+        <img src="assets/images/logo.svg" alt="Amazing Galapagos Travel" class="logo-img">
+      </a>
+      <p>Your local tour operator in Puerto Baquerizo Moreno, San Cristóbal, Galápagos Islands, Ecuador.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram"><img src="assets/images/icon-instagram.svg" alt=""></a>
+        <a href="#" aria-label="Facebook"><img src="assets/images/icon-facebook.svg" alt=""></a>
+        <a href="https://wa.me/593980350409" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="assets/images/icon-whatsapp.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Visit us</h4>
+      <p>📍 Av. Charles Darwin 997 y Marchena<br>Puerto Ayora, Santa Cruz<br>Galápagos, Ecuador</p>
+      <p>Open daily 07:30am - 5:30pm (Galápagos) · Reservations 24/7</p>
+    </div>
+
+    <div>
+      <h4>Get in touch</h4>
+      <p>24/7 reservations line — our team replies any day, 7:30am–5:30pm Galápagos time.</p>
+      <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="footer-whatsapp-btn">
+        <img src="assets/images/icon-whatsapp-white.svg" alt="">
+        WhatsApp
+      </a>
+      <p>📧 amazingalapagos2023.ec@gmail.com</p>
+      <p>📞 +593 98 035 0409</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Amazing Galapagos Travel. All rights reserved. · <a href="terms.html" class="footer-legal-link">Terms &amp; Conditions</a></p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

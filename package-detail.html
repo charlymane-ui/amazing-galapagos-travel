@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Package Details | Amazing Galapagos Travel</title>
+<meta name="description" content="Multi-day package itinerary and booking information — Amazing Galapagos Travel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="subpage">
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header scrolled" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.svg" alt="Amazing Galapagos Travel" class="logo-img">
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="islands.html">Islands</a>
+      <a href="packages.html">Packages</a>
+      <a href="index.html#cruises">Cruises</a>
+      <a href="ferries.html">Ferries</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ PACKAGE HEADER ============ -->
+<section class="tour-detail-header">
+  <div class="container">
+    <a href="packages.html" class="island-back reveal">← Back to Packages</a>
+    <div class="tour-detail-chiprow reveal">
+      <span class="tour-detail-chip" id="pkgDurationChip">Duration</span>
+    </div>
+    <h1 class="tour-detail-title reveal" id="pkgTitle">Package Name</h1>
+    <div class="tour-detail-meta reveal" id="pkgMeta"></div>
+  </div>
+</section>
+
+<!-- ============ PACKAGE BODY ============ -->
+<section class="tour-detail-body">
+  <div class="container tour-detail-grid">
+    <div class="tour-detail-main">
+      <div class="tour-detail-gallery-main reveal" id="pkgGallery"><span id="pkgIcon">🐢</span></div>
+
+      <div class="tour-detail-block reveal">
+        <h2>Overview</h2>
+        <p id="pkgOverview"></p>
+      </div>
+
+      <div class="tour-detail-block reveal">
+        <h2>Day-by-Day Itinerary</h2>
+        <div class="tour-detail-itinerary" id="pkgItinerary"></div>
+      </div>
+
+      <div class="tour-detail-includes reveal">
+        <div class="tour-detail-includes-col">
+          <h3>What's included</h3>
+          <ul id="pkgIncluded"></ul>
+        </div>
+        <div class="tour-detail-includes-col tour-detail-includes-col--muted">
+          <h3>Not included</h3>
+          <ul id="pkgNotIncluded"></ul>
+        </div>
+      </div>
+    </div>
+
+    <aside class="tour-detail-booking reveal">
+      <div class="tour-detail-booking-card">
+        <p class="tour-detail-booking-location" id="pkgTitleSidebar"></p>
+        <p class="tour-detail-booking-durationtype" id="pkgDurationSidebar"></p>
+        <a href="index.html#contact" class="btn btn-primary btn-block">Book now</a>
+        <a href="index.html#contact" class="tour-detail-whatsapp">💬 Ask on WhatsApp</a>
+        <p class="tour-detail-cancel">Free cancellation up to 24h before</p>
+      </div>
+      <div class="tour-detail-meeting">
+        <span class="tour-detail-meeting-icon">📍</span>
+        <div>
+          <strong>Meeting Point</strong>
+          <p>Hotel pickup · Puerto Baquerizo Moreno</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="island-cta">
+  <div class="container">
+    <h2 class="reveal" id="pkgCtaHeading">Ready to book this package?</h2>
+    <a href="index.html#contact" class="btn btn-primary reveal">Get in Touch</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo logo-footer">
+        <img src="assets/images/logo.svg" alt="Amazing Galapagos Travel" class="logo-img">
+      </a>
+      <p>Your local tour operator in Puerto Baquerizo Moreno, San Cristóbal, Galápagos Islands, Ecuador.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram"><img src="assets/images/icon-instagram.svg" alt=""></a>
+        <a href="#" aria-label="Facebook"><img src="assets/images/icon-facebook.svg" alt=""></a>
+        <a href="https://wa.me/593980350409" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="assets/images/icon-whatsapp.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Visit us</h4>
+      <p>📍 Av. Charles Darwin 997 y Marchena<br>Puerto Ayora, Santa Cruz<br>Galápagos, Ecuador</p>
+      <p>Open daily 07:30am - 5:30pm (Galápagos) · Reservations 24/7</p>
+    </div>
+
+    <div>
+      <h4>Get in touch</h4>
+      <p>24/7 reservations line — our team replies any day, 7:30am–5:30pm Galápagos time.</p>
+      <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="footer-whatsapp-btn">
+        <img src="assets/images/icon-whatsapp-white.svg" alt="">
+        WhatsApp
+      </a>
+      <p>📧 amazingalapagos2023.ec@gmail.com</p>
+      <p>📞 +593 98 035 0409</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Amazing Galapagos Travel. All rights reserved. · <a href="terms.html" class="footer-legal-link">Terms &amp; Conditions</a></p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="assets/js/packages-data.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

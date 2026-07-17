@@ -1,0 +1,310 @@
+[
+  {
+    "file": "hero-1.jpg",
+    "photographer": "Heidi Bruce",
+    "profile": "https://unsplash.com/@ruusa",
+    "source": "Unsplash",
+    "query": "galapagos aerial coastline"
+  },
+  {
+    "file": "hero-2.jpg",
+    "photographer": "James Lee",
+    "profile": "https://unsplash.com/@picsbyjameslee",
+    "source": "Unsplash",
+    "query": "sea lion beach"
+  },
+  {
+    "file": "hero-3.jpg",
+    "photographer": "Darius Wiles",
+    "profile": "https://unsplash.com/@dariuswiles",
+    "source": "Unsplash",
+    "query": "blue footed booby"
+  },
+  {
+    "file": "island-san-cristobal.jpg",
+    "photographer": "Christine Ellsay",
+    "profile": "https://unsplash.com/@westcoastrain",
+    "source": "Unsplash",
+    "query": "san cristobal galapagos"
+  },
+  {
+    "file": "island-santa-cruz.jpg",
+    "photographer": "Vincent Croos",
+    "profile": "https://unsplash.com/@vincecroos",
+    "source": "Unsplash",
+    "query": "santa cruz galapagos"
+  },
+  {
+    "file": "island-isabela.jpg",
+    "photographer": "Bjarn Bronsveld",
+    "profile": "https://unsplash.com/@bjarn",
+    "source": "Unsplash",
+    "query": "isabela island"
+  },
+  {
+    "file": "package-tortugas.jpg",
+    "photographer": "Du\u0161an veverkolog",
+    "profile": "https://unsplash.com/@veverkolog",
+    "source": "Unsplash",
+    "query": "giant tortoise"
+  },
+  {
+    "file": "package-penguins.jpg",
+    "photographer": "Darius Wiles",
+    "profile": "https://unsplash.com/@dariuswiles",
+    "source": "Unsplash",
+    "query": "galapagos penguin"
+  },
+  {
+    "file": "package-sharks.jpg",
+    "photographer": "Gerald Sch\u00f6mbs",
+    "profile": "https://unsplash.com/@geerald",
+    "source": "Unsplash",
+    "query": "hammerhead shark"
+  },
+  {
+    "file": "package-adventure.jpg",
+    "photographer": "Matt Hardy",
+    "profile": "https://unsplash.com/@matthardy",
+    "source": "Unsplash",
+    "query": "snorkeling ocean"
+  },
+  {
+    "file": "cruise-yacht.jpg",
+    "photographer": "Tobias Tullius",
+    "profile": "https://unsplash.com/@tobiastu",
+    "source": "Unsplash",
+    "query": "yacht ocean"
+  },
+  {
+    "file": "cruise-cabin.jpg",
+    "photographer": "Matthew Hamilton",
+    "profile": "https://unsplash.com/@thatsmrbio",
+    "source": "Unsplash",
+    "query": "yacht deck"
+  },
+  {
+    "file": "office-team-1.jpg",
+    "photographer": "Felix Rostig",
+    "profile": "https://unsplash.com/@felixrstg",
+    "source": "Unsplash",
+    "query": "travel agency team"
+  },
+  {
+    "file": "office-team-2.jpg",
+    "photographer": "Helena Lopes",
+    "profile": "https://unsplash.com/@wildlittlethingsphoto",
+    "source": "Unsplash",
+    "query": "friends traveling together laughing"
+  },
+  {
+    "file": "office-team-3.jpg",
+    "photographer": "Yingchou Han",
+    "profile": "https://unsplash.com/@hyingchou",
+    "source": "Unsplash",
+    "query": "tour guide smiling"
+  },
+  {
+    "file": "about-office.jpg",
+    "photographer": "Mikey Harris",
+    "profile": "https://unsplash.com/@mikeyharris",
+    "source": "Unsplash",
+    "query": "office desk travel"
+  },
+  {
+    "file": "stay-tourist.jpg",
+    "photographer": "ikhbale",
+    "profile": "https://unsplash.com/@ikhbale",
+    "source": "Unsplash",
+    "query": "hotel room with bed television and desk"
+  },
+  {
+    "file": "stay-comfort.jpg",
+    "photographer": "Meg von Haartman",
+    "profile": "https://unsplash.com/@traveleroohlala",
+    "source": "Unsplash",
+    "query": "infinity pool overlooking the ocean"
+  },
+  {
+    "file": "stay-first.jpg",
+    "photographer": "Nour Betar",
+    "profile": "https://unsplash.com/@nourdt",
+    "source": "Unsplash",
+    "query": "top view of beach resort"
+  },
+  {
+    "file": "tour-giant-tortoise.jpg",
+    "photographer": "Heidi Bruce",
+    "profile": "https://unsplash.com/@ruusa",
+    "source": "Unsplash",
+    "query": "galapagos giant tortoise close up"
+  },
+  {
+    "file": "tour-booby.jpg",
+    "photographer": "Darius Wiles",
+    "profile": "https://unsplash.com/@dariuswiles",
+    "source": "Unsplash",
+    "query": "blue-footed booby wings outstretched"
+  },
+  {
+    "file": "tour-land-iguana.jpg",
+    "photographer": "Simon Berger",
+    "profile": "https://unsplash.com/@simon_berger",
+    "source": "Unsplash",
+    "query": "yellow land iguana galapagos"
+  },
+  {
+    "file": "tour-marine-iguana.jpg",
+    "photographer": "Christine Ellsay",
+    "profile": "https://unsplash.com/@westcoastrain",
+    "source": "Unsplash",
+    "query": "marine iguana on rock near ocean, galapagos"
+  },
+  {
+    "file": "tour-flamingo.jpg",
+    "photographer": "Mohamed Fsili",
+    "profile": "https://unsplash.com/@mfsili",
+    "source": "Unsplash",
+    "query": "flamingos standing in shallow water"
+  },
+  {
+    "file": "tour-sea-lion.jpg",
+    "photographer": "Bob Brewer",
+    "profile": "https://unsplash.com/@brewbottle",
+    "source": "Unsplash",
+    "query": "sea lion on a beach"
+  },
+  {
+    "file": "tour-snorkel-turtle.jpg",
+    "photographer": "NEOM",
+    "profile": "https://unsplash.com/@neom",
+    "source": "Unsplash",
+    "query": "sea turtle swimming over coral reef"
+  },
+  {
+    "file": "tour-hammerhead.jpg",
+    "photographer": "Heidi Bruce",
+    "profile": "https://unsplash.com/@ruusa",
+    "source": "Unsplash",
+    "query": "hammerhead sharks galapagos"
+  },
+  {
+    "file": "tour-diving-reef.jpg",
+    "photographer": "Oleksandr Sushko",
+    "profile": "https://unsplash.com/@wolfalexs",
+    "source": "Unsplash",
+    "query": "scuba diver surrounded by sharks"
+  },
+  {
+    "file": "tour-night-diving.jpg",
+    "photographer": "Talia Cohen",
+    "profile": "https://unsplash.com/@taliacohen",
+    "source": "Unsplash",
+    "query": "grayscale scuba diving"
+  },
+  {
+    "file": "tour-las-grietas.jpg",
+    "photographer": "Sijmen van Hooff",
+    "profile": "https://unsplash.com/@sijmen89",
+    "source": "Unsplash",
+    "query": "cliffside turquoise water swimming"
+  },
+  {
+    "file": "tour-kicker-rock.jpg",
+    "photographer": "Heidi Bruce",
+    "profile": "https://unsplash.com/@ruusa",
+    "source": "Unsplash",
+    "query": "Darwin's Arch rock formation, galapagos"
+  },
+  {
+    "file": "tour-volcano.jpg",
+    "photographer": "Tomáš Malík",
+    "profile": "https://unsplash.com/@malcoo",
+    "source": "Unsplash",
+    "query": "aerial view of volcano with lava"
+  },
+  {
+    "file": "tour-sulphur.jpg",
+    "photographer": "Carles Rabada",
+    "profile": "https://unsplash.com/@carlesrgm",
+    "source": "Unsplash",
+    "query": "volcanic crater with diverse textures"
+  },
+  {
+    "file": "tour-tintoreras.jpg",
+    "photographer": "Pascal van de Vendel",
+    "profile": "https://unsplash.com/@pascalvendel",
+    "source": "Unsplash",
+    "query": "white tip reef shark resting"
+  },
+  {
+    "file": "tour-bartolome.jpg",
+    "photographer": "Colin Watts",
+    "profile": "https://unsplash.com/@colinwatts",
+    "source": "Unsplash",
+    "query": "volcanic landscape under dramatic sky"
+  },
+  {
+    "file": "slide-1.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-2.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-3.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-4.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-5.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-6.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-7.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-8.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  },
+  {
+    "file": "slide-9.jpg",
+    "photographer": null,
+    "profile": null,
+    "source": "Owned — real Amazing Galapagos Travel guest photo, confirmed by site owner",
+    "query": null
+  }
+]
