@@ -1032,6 +1032,15 @@ body.subpage .site-header {
   font-size: 1.05rem;
 }
 
+.ferry-illustration { padding: 10px 0 0; }
+.ferry-illustration-frame {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  line-height: 0;
+}
+.ferry-illustration-frame svg { width: 100%; height: auto; display: block; }
+
 .tours-section { padding: 60px 0; }
 .tours-section:first-of-type { padding-top: 20px; }
 .tours-category-heading {
