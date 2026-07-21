@@ -1037,9 +1037,10 @@ body.subpage .site-header {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  line-height: 0;
+  height: 360px;
+  background-size: cover;
+  background-position: center;
 }
-.ferry-illustration-frame svg { width: 100%; height: auto; display: block; }
 
 .tours-section { padding: 60px 0; }
 .tours-section:first-of-type { padding-top: 20px; }
@@ -1362,6 +1363,7 @@ body.subpage .site-header {
   .expect-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 760px) {
+  .ferry-illustration-frame { height: 220px; }
   .logo-img { height: 44px; }
   .nav { position: fixed; top: 0; right: -100%; height: 100vh; width: 78%; max-width: 320px;
     background: var(--ocean-deep); flex-direction: column; padding: 110px 32px; gap: 26px;
