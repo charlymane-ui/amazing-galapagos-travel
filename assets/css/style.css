@@ -1123,7 +1123,8 @@ body.subpage .site-header {
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
 .contact-info-list { display: flex; flex-direction: column; gap: 22px; margin: 24px 0 28px; }
 .contact-info-item h4 { color: var(--ocean-deep); margin-bottom: 4px; }
-.contact-info-item p { color: var(--gray); }
+.contact-info-item p { color: var(--gray); margin-bottom: 6px; }
+.contact-info-item p:last-child { margin-bottom: 0; }
 .contact-info-item a { color: var(--ocean); font-weight: 700; }
 .contact-info-item a:hover { color: var(--coral); }
 
