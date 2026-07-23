@@ -995,6 +995,23 @@ a.footer-whatsapp-btn:hover { background: var(--coral-dark); color: #fff; transf
 }
 .back-to-top.show { opacity: 1; visibility: visible; transform: translateY(0); }
 
+/* ============ WHATSAPP FLOAT ============ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 26px; left: 26px;
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition);
+  z-index: 900;
+}
+.whatsapp-float img { width: 24px; height: 24px; }
+.whatsapp-float:hover { transform: translateY(-3px); }
+
 /* ============ ISLAND / TOUR PAGES ============ */
 body.subpage .site-header {
   background: rgba(2, 48, 71, 0.92);
