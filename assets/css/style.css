@@ -1127,6 +1127,8 @@ body.subpage .site-header {
 .contact-info-item p:last-child { margin-bottom: 0; }
 .contact-info-item a { color: var(--ocean); font-weight: 700; }
 .contact-info-item a:hover { color: var(--coral); }
+.contact-icon-row { display: flex; align-items: flex-start; gap: 10px; }
+.contact-icon { width: 20px; height: 20px; flex-shrink: 0; margin-top: 2px; }
 
 /* ============ LEGAL PAGE ============ */
 .legal-section { padding: 60px 0 90px; }
