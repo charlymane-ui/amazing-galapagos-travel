@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Islands | Amazing Galapagos Travel</title>
-<meta name="description" content="Explore San Cristóbal, Santa Cruz and Isabela — every Galápagos island we run tours on, with what makes each one worth the trip.">
+<title>Contact Us | Amazing Galapagos Travel</title>
+<meta name="description" content="Get in touch with Amazing Galapagos Travel — WhatsApp, email, phone and office hours for booking island tours, packages, cruises and ferries.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -37,51 +37,69 @@
 <section class="island-header">
   <div class="container">
     <a href="index.html" class="island-back reveal">← Back to Home</a>
-    <p class="section-eyebrow island-header-eyebrow reveal">Where we go</p>
-    <h1 class="island-header-title reveal">The Islands</h1>
-    <p class="island-header-sub reveal">Every island in the Galápagos has its own personality. We run tours on three of them — here's what makes each one worth the trip, and where to find the full list of tours for each.</p>
+    <p class="section-eyebrow island-header-eyebrow reveal">Get in touch</p>
+    <h1 class="island-header-title reveal">Contact Us</h1>
+    <p class="island-header-sub reveal">Questions about tours, packages or cruises? Reach out any way that's easiest — we reply every day, 7:30am–5:30pm Galápagos time.</p>
   </div>
 </section>
 
-<!-- ============ ISLANDS GRID ============ -->
+<!-- ============ CONTACT ============ -->
 <section class="tours-section">
   <div class="container">
-    <div class="island-grid">
-      <article class="island-card reveal">
-        <div class="island-img" style="background-image:url('assets/images/island-san-cristobal.jpg')">
-          <span class="island-badge">Our Home Base</span>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h2 class="tours-category-heading">Ways to Reach Us</h2>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <h4>📍 Visit us</h4>
+            <p>Av. Charles Darwin 997 y Marchena<br>Puerto Ayora, Santa Cruz<br>Galápagos, Ecuador</p>
+          </div>
+          <div class="contact-info-item">
+            <h4>🕒 Hours</h4>
+            <p>Open daily 07:30am – 5:30pm (Galápagos time)<br>Reservations answered 24/7</p>
+          </div>
+          <div class="contact-info-item">
+            <h4>📧 Email</h4>
+            <p><a href="mailto:amazingalapagos2023.ec@gmail.com">amazingalapagos2023.ec@gmail.com</a></p>
+          </div>
+          <div class="contact-info-item">
+            <h4>📞 Phone</h4>
+            <p><a href="tel:+593980350409">+593 98 035 0409</a></p>
+          </div>
         </div>
-        <div class="island-body">
-          <h3>San Cristóbal</h3>
-          <p>The capital of Galápagos — and where our office calls home. Sea lions nap right on the boardwalk, Kicker Rock (León Dormido) rises dramatically from the sea just offshore, and everything from day hikes to advanced diving departs a short walk from our door.</p>
-          <div class="package-meta"><span>🗺️ 10 tours · Day tours, snorkel & diving</span></div>
-          <a href="island-san-cristobal.html" class="island-link">See tours here →</a>
-        </div>
-      </article>
+        <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="footer-whatsapp-btn">
+          <img src="assets/images/icon-whatsapp-white.svg" alt="">
+          Message us on WhatsApp
+        </a>
+      </div>
 
-      <article class="island-card reveal">
-        <div class="island-img" style="background-image:url('assets/images/island-santa-cruz.jpg')">
-          <span class="island-badge">Highlands & Wildlife</span>
+      <form class="contact-form reveal" id="contactForm">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="ct-name">Full name</label>
+            <input type="text" id="ct-name" name="name" required placeholder="Jane Traveler">
+          </div>
+          <div class="form-field">
+            <label for="ct-email">Email</label>
+            <input type="email" id="ct-email" name="email" required placeholder="jane@email.com">
+          </div>
         </div>
-        <div class="island-body">
-          <h3>Santa Cruz</h3>
-          <p>The most populated island, home to the Charles Darwin Research Station and the misty highlands where giant tortoises roam free in the wild. From Las Grietas' turquoise canyon to advanced dive sites like Gordon Rocks, it has the widest range of tours in the archipelago.</p>
-          <div class="package-meta"><span>🗺️ 16 tours · Land, snorkel & diving</span></div>
-          <a href="island-santa-cruz.html" class="island-link">See tours here →</a>
+        <div class="form-field">
+          <label for="ct-subject">Subject</label>
+          <input type="text" id="ct-subject" name="subject" required placeholder="Question about the 5-day cruise">
         </div>
-      </article>
-
-      <article class="island-card reveal">
-        <div class="island-img" style="background-image:url('assets/images/island-isabela.jpg')">
-          <span class="island-badge">Volcanoes & Coast</span>
+        <div class="form-field">
+          <label for="ct-message">Message</label>
+          <textarea id="ct-message" name="message" rows="4" required placeholder="Tell us what you'd like to know..."></textarea>
         </div>
-        <div class="island-body">
-          <h3>Isabela</h3>
-          <p>The largest island in the Galápagos, shaped by six active volcanoes. Snorkel the lava arches of Los Túneles, hike the rim of Sierra Negra's massive caldera, or spot penguins and white-tip sharks resting in the Tintoreras lava channels.</p>
-          <div class="package-meta"><span>🗺️ 4 tours · Volcano hikes & snorkeling</span></div>
-          <a href="island-isabela.html" class="island-link">See tours here →</a>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-note">We'll reply within 24 hours.</p>
+        <div class="form-success" id="contactSuccess">
+          <span>🌊</span>
+          <p>Thank you! Your message has been received. We'll get back to you soon.</p>
         </div>
-      </article>
+      </form>
     </div>
   </div>
 </section>
@@ -89,8 +107,8 @@
 <!-- ============ CTA ============ -->
 <section class="island-cta">
   <div class="container">
-    <h2 class="reveal">Not sure which island to start with?</h2>
-    <a href="index.html#contact" class="btn btn-primary reveal">Ask Us on WhatsApp</a>
+    <h2 class="reveal">Prefer a quick answer?</h2>
+    <a href="https://wa.me/593980350409" target="_blank" rel="noopener" class="btn btn-primary reveal">Chat on WhatsApp</a>
   </div>
 </section>
 

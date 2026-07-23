@@ -198,6 +198,21 @@ if (cruiseForm) {
   });
 }
 
+// ============ CONTACT FORM ============
+const contactForm = document.getElementById('contactForm');
+const contactSuccess = document.getElementById('contactSuccess');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    // No backend is wired up yet — this only confirms the message was
+    // captured client-side. Connect this to a real email/CRM endpoint before launch.
+    contactSuccess.classList.add('show');
+    contactForm.reset();
+    setTimeout(() => contactSuccess.classList.remove('show'), 4000);
+  });
+}
+
 // ============ FOOTER YEAR ============
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
