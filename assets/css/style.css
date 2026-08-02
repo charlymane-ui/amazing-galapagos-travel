@@ -486,6 +486,25 @@ section { padding: 110px 0; position: relative; }
   font-weight: 700;
 }
 
+.partner-hotels { margin-top: 60px; text-align: center; }
+.partner-hotels-label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+.partner-hotels-logos {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+.partner-hotels-logos img { height: 52px; width: auto; object-fit: contain; }
+
 /* ============ CRUISES ============ */
 .cruises {
   position: relative;
