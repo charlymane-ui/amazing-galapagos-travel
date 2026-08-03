@@ -593,9 +593,6 @@ section { padding: 110px 0; position: relative; }
 /* ============ FERRIES ============ */
 .ferries { padding-top: 0; padding-bottom: 0; margin: 80px 0; }
 .ferry-panel {
-  background: var(--sand);
-  border-radius: 26px;
-  padding: 48px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -618,54 +615,15 @@ section { padding: 110px 0; position: relative; }
   margin-bottom: 12px;
 }
 .ferry-desc { color: var(--gray); font-size: 1rem; line-height: 1.6; margin-bottom: 24px; }
-.ferry-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--green);
-  color: #fff;
-  font-weight: 800;
-  font-size: 0.9rem;
-  padding: 13px 26px;
-  border-radius: 999px;
-  transition: transform var(--transition), background var(--transition);
-}
-.ferry-cta::before {
-  content: "";
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  background: var(--green-light);
-}
-.ferry-cta:hover { transform: translateY(-3px); background: #027a3a; }
-.ferry-schedule-link {
-  display: inline-block;
-  margin-top: 14px;
-  margin-left: 4px;
-  font-weight: 700;
-  font-size: 0.88rem;
-  color: var(--ocean);
-  transition: transform var(--transition);
-}
-.ferry-schedule-link:hover { transform: translateX(4px); color: var(--coral); }
-.ferry-grid {
+.ferry-photo {
   flex: 1 1 480px;
-  max-width: 576px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  max-width: 620px;
+  height: 360px;
+  border-radius: var(--radius);
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow);
 }
-.ferry-chip {
-  background: #fff;
-  border-radius: 12px;
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  box-shadow: 0 10px 25px -15px rgba(2,48,71,0.3);
-}
-.ferry-chip-icon { font-size: 1.5rem; flex-shrink: 0; }
-.ferry-route { font-weight: 700; font-size: 0.9rem; color: var(--ink); }
-.ferry-departure { font-size: 0.78rem; color: var(--gray); margin-top: 2px; }
 
 /* ============ FERRIES PAGE (routes / expect / note) ============ */
 .route-grid {
@@ -1433,7 +1391,6 @@ body.subpage .site-header {
   section { padding: 70px 0; }
   .cruise-copy { text-align: center; }
   .cruise-thumb { margin: 0 auto; }
-  .ferry-panel { padding: 32px 24px; }
-  .ferry-grid { grid-template-columns: 1fr; }
+  .ferry-photo { height: 220px; }
   .expect-grid { grid-template-columns: 1fr; }
 }
